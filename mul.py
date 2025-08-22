@@ -3,3 +3,5 @@ def mul(a,b):
 
 def mul(a,b,c):
     return a*b*c
+
+#multiplication function
