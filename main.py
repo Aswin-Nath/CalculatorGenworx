@@ -1,6 +1,7 @@
 from add import add
 from sub import sub
 from div import div
+from mul import mul
 
 while True:
     ch = input("Enter the choice: 1.Add\n2.Sub\n3.Mul\n4.Div\n5.Exit")
@@ -11,10 +12,15 @@ while True:
         inp = list(map(int, input().split()))
         print(sub(inp))
     elif ch == 3:
-        pass
+        inp1 = int(input())
+        inp2 = int(input())
+        print(mul(inp1, inp2))
     elif ch == 4:
-        pass
+        inp1 = int(input())
+        inp2 = int(input())
+        print(div(inp1, inp2))
     elif ch == 5:
-        pass
+        print("Exiting...")
+        break
     else:
         print("Invalid choice")
