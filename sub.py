@@ -3,3 +3,4 @@ def add(*numbers):
     for i in numbers:
         val-=i
     return val
+
